@@ -50,15 +50,8 @@ const Header = () => (
         <div className="outer-box">
           <div className="logo-box">
             <figure className="logo">
-              <a href="/index">
-                <img
-                  src="/assets/images/logo.png"
-                  alt="Logo"
-                  width={480}
-                  height={80}
-                  className="img-fluid"
-                  style={{ maxWidth: "100px", height: "auto" }}
-                />
+              <a href="/">
+                  <img src="/assets/images/logo.png" alt="Logo" style={{ height: '100px', width: 'auto', maxWidth: '320px' }} />
               </a>
             </figure>
           </div>
@@ -105,14 +98,7 @@ const Header = () => (
           <div className="logo-box">
             <figure className="logo">
               <a href="/index">
-                <img
-                  src="/assets/images/logo.png"
-                  alt="Logo"
-                  width={80}
-                  height={40}
-                  className="img-fluid"
-                  style={{ maxWidth: "100px", height: "auto" }}
-                />
+                  <img src="/assets/images/logo.png" alt="Logo" style={{ height: '80px', width: 'auto', maxWidth: '220px' }} />
               </a>
             </figure>
           </div>

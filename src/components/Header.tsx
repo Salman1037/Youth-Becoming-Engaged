@@ -12,14 +12,14 @@ const Header = () => (
               <i className="icon-46"></i>
               <a href="mailto:example@info.com">example@info.com</a>
             </li>
-            <li>
+            {/* <li>
               <i className="icon-2"></i>
               <a href="/index">Pay your bill</a>
             </li>
             <li>
               <i className="icon-3"></i>
               Open Hours: <span>Mon - Fri: 8:00am to 5:00pm</span>
-            </li>
+            </li> */}
           </ul>
           <ul className="social-links clearfix">
             <li>

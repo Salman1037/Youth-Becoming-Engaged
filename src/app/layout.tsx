@@ -45,7 +45,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Youth Becoming Engaged",
-  description: "A Next.js application with Bootstrap 5 designed for youth engagement",
+  description: "Empowering youth through engagement, education, and community partnerships. Join us to make a difference and become an active part of positive change.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -55,7 +55,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-        <title>Medicinsk - HTML 5 Template Preview</title>
+        <title>Youth Becoming Engaged</title>
+        <meta name="description" content="Empowering youth through engagement, education, and community partnerships. Join us to make a difference and become an active part of positive change." />
         <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
         {/* Google Fonts */}
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet" />

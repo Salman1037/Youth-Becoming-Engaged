@@ -19,9 +19,9 @@ const Footer = () => (
               <div className="widget-content">
                 <p>To provide accessible and equitable healthcare for all individuals, regardless of their or socioeconomic status.</p>
                 <ul className="social-links clearfix">
-                  <li><a href="/index.html"><i className="fab fa-facebook-f"></i></a></li>
-                  <li><a href="/index.html"><i className="fab fa-dribbble"></i></a></li>
-                  <li><a href="/index.html"><i className="fab fa-twitter"></i></a></li>
+                  <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
+                  <li><a href="/"><i className="fab fa-dribbble"></i></a></li>
+                  <li><a href="/"><i className="fab fa-twitter"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -33,11 +33,11 @@ const Footer = () => (
               </div>
               <div className="widget-content">
                 <ul className="links-list clearfix">
-                  <li><a href="/about.html">About</a></li>
-                  <li><a href="/index.html">Surgery</a></li>
-                  <li><a href="/index.html">Medications</a></li>
-                  <li><a href="/index.html">Chemotherapy</a></li>
-                  <li><a href="/index.html">Physical therapy</a></li>
+                  <li><a href="/about">About</a></li>
+                  <li><a href="/">Surgery</a></li>
+                  <li><a href="/">Medications</a></li>
+                  <li><a href="/">Chemotherapy</a></li>
+                  <li><a href="/">Physical therapy</a></li>
                 </ul>
               </div>
             </div>
@@ -49,11 +49,11 @@ const Footer = () => (
               </div>
               <div className="widget-content">
                 <ul className="links-list clearfix">
-                  <li><a href="/index.html">Primary care</a></li>
-                  <li><a href="/index.html">Specialty care</a></li>
-                  <li><a href="/index.html">Emergency care</a></li>
-                  <li><a href="/index.html">Diagnostic services</a></li>
-                  <li><a href="/index.html">Rehabilitation services</a></li>
+                  <li><a href="/">Primary care</a></li>
+                  <li><a href="/">Specialty care</a></li>
+                  <li><a href="/">Emergency care</a></li>
+                  <li><a href="/">Diagnostic services</a></li>
+                  <li><a href="/">Rehabilitation services</a></li>
                 </ul>
               </div>
             </div>
@@ -84,17 +84,17 @@ const Footer = () => (
         </div>
         <div className="footer-menu mt_60">
           <figure className="logo-box">
-            <a href="/index.html">
-              <img src="/assets/images/logo.png" alt="" />
-            </a>
+            <a href="/">
+                  <img src="/assets/images/logo.png" alt="Logo" style={{ height: '100px', width: 'auto', maxWidth: '320px' }} />
+              </a>
           </figure>
           <ul className="menu-list clearfix">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/about.html">About Us</a></li>
-            <li><a href="/service.html">Departments</a></li>
-            <li><a href="/portfolio.html">Portfolio</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/service">Departments</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -103,7 +103,7 @@ const Footer = () => (
       <div className="auto-container">
         <div className="copyright">
           <p>
-            <a href="/index.html">Medicinsk</a> &copy; 2025 All Right Reserved
+            <a href="/">Medicinsk</a> &copy; 2025 All Right Reserved
           </p>
         </div>
       </div>

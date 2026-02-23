@@ -29,6 +29,7 @@ import "../assets/css/module-css/team.css";
 import "../assets/css/module-css/portfolio.css";
 import "../assets/css/module-css/news.css";
 import "../assets/css/module-css/contact.css";
+import "../assets/css/module-css/page-title.css";
 import "../assets/css/responsive.css";
 import "./globals.css";
 import { ReactNode } from "react";

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 const Contact: React.FC = () => (
@@ -38,24 +39,25 @@ const Contact: React.FC = () => (
             }}
           ></div>
           <h3>Make an Appointment </h3>
-          <form action="index.html" method="post">
+          {/* Use a no-op action to avoid SSR/CSR mismatch and let JS handle submission */}
+          <form action="#" method="post" autoComplete="off">
             <div className="form-group">
               <div className="icon">
                 <i className="icon-45"></i>
               </div>
-              <input type="text" name="name" placeholder="Name" required />
+              <input type="text" name="name" placeholder="Name" required autoComplete="off" />
             </div>
             <div className="form-group">
               <div className="icon">
                 <i className="icon-46"></i>
               </div>
-              <input type="email" name="email" placeholder="Email" required />
+              <input type="email" name="email" placeholder="Email" required autoComplete="off" />
             </div>
             <div className="form-group">
               <div className="icon">
                 <i className="icon-48"></i>
               </div>
-              <textarea name="message" placeholder="Message"></textarea>
+              <textarea name="message" placeholder="Message" autoComplete="off"></textarea>
             </div>
             <div className="message-btn">
               <button type="submit" className="theme-btn btn-two">

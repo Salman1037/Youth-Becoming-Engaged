@@ -1,4 +1,12 @@
 import HomePage from "./home/page";
+import Link from "next/link";
+
+
 export default function Page() {
-  return <HomePage />;
+  return (
+    <>
+      
+      <HomePage />
+    </>
+  );
 }

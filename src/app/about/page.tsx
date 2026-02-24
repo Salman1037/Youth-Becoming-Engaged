@@ -10,8 +10,9 @@ export default function Page() {
   return (
     <>
       <AboutSection />
-      <Whoweare />
+     
       <WorkingWithCommunity />
+       <Whoweare />
       <EngagedSection />
       <AppointmentSection />
     </>

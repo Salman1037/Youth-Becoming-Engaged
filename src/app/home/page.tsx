@@ -5,6 +5,7 @@ import Whoweare from "@/components/Whoweare";
 import Focusarea from "@/components/Focusarea";
 import Contact from "@/components/Contact";
 import Callaction from "@/components/Callaction";
+import WorkingWithCommunity from '@/components/WorkingWithCommunity';
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Whoweare />
       <Ourprogram />
       <Contact />
+      <WorkingWithCommunity />
       <CommunityPartnerships />
       <Focusarea />
       <Callaction />

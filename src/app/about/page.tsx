@@ -1,19 +1,19 @@
 import AboutSection from "@/components/AboutSection";
 import AppointmentSection from "@/components/AppointmentSection";
-import ServiceSection from "@/components/ServiceSection";
+import WorkingWithCommunity from '@/components/WorkingWithCommunity';
 import Whoweare from "@/components/Whoweare";
+import EngagedSection from "@/components/EngagedSection";
 
 import Link from "next/link";
-
 
 export default function Page() {
   return (
     <>
       <AboutSection />
       <Whoweare />
-      <ServiceSection />
+      <WorkingWithCommunity />
+      <EngagedSection />
       <AppointmentSection />
-     
     </>
   );
 }

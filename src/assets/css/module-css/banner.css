@@ -3,7 +3,7 @@
 .banner-section{
   position: relative;
   overflow: hidden;
-  background-color: #DAEBFB;
+  background-color: transparent !important;
 }
   
 .banner-carousel .slide-item{

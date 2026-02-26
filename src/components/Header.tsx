@@ -83,7 +83,7 @@ const Header = () => (
           <div className="menu-right-content">
           
             <div className="btn-box">
-              <a href="/index" className="theme-btn btn-one">
+              <a href="/contact" className="theme-btn btn-one">
                 <span>Appointment</span>
               </a>
             </div>

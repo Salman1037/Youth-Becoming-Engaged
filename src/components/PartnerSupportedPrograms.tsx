@@ -55,7 +55,7 @@ const PartnerSupportedPrograms: React.FC = () => (
             }}
             onMouseEnter={e => {
               e.currentTarget.style.boxShadow = "0 6px 24px rgba(44, 62, 80, 0.10)";
-              e.currentTarget.style.borderColor = "#294BCB";
+              e.currentTarget.style.borderColor = "#EFA852";
               e.currentTarget.style.transform = "translateY(-4px) scale(1.025)";
             }}
             onMouseLeave={e => {

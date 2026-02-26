@@ -1,19 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-
 const AboutSection: React.FC = () => (
   <section className="page-title p_relative centred">
     <div
       className="bg-layer"
-      style={{ backgroundImage: "url(/assets/images/background/about_bg.png)" }}
+      style={{ backgroundImage: "url(/assets/images/background/page-title.jpg)" }}
     ></div>
     <figure className="image-layer">
       <Image
-        src="/assets/images/resource/about.png"
-        alt=""
-        width={300} // Adjust width as needed
-        height={100} // Adjust height as needed
+        src="/assets/images/background/page-title-1.png"
+        alt="About Us Banner"
+        width={520}
+        height={320}
+        style={{ objectFit: "contain", maxWidth: "100%", height: "auto" }}
       />
     </figure>
     <div className="auto-container">
@@ -29,5 +28,4 @@ const AboutSection: React.FC = () => (
     </div>
   </section>
 );
-
 export default AboutSection;

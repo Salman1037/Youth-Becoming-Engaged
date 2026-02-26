@@ -5,6 +5,7 @@ import Whoweare from "@/components/Whoweare";
 import EngagedSection from "@/components/EngagedSection";
 
 import Link from "next/link";
+import Ourprogram from "@/components/Ourprogram";
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
       <AboutSection />
      
       <WorkingWithCommunity />
+       <Ourprogram />
        <Whoweare />
       <EngagedSection />
       <AppointmentSection />

@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState, JSX } from "react";
 
 export default function Whoweare() {
   return (
@@ -99,7 +99,7 @@ export default function Whoweare() {
                       className="image-shape"
                       style={{ backgroundImage: "url(/assets/images/shape/shape-7.png)" }}
                     ></div>
-                    <h2>30</h2>
+                    <AnimatedCounter end={30} tag="h2" color="#EFA852" />
                     <span>Years of Service to Youth</span>
                   </div>
                 </div>
@@ -190,5 +190,49 @@ function CounterCard({
         </p>
       </div>
     </div>
+  );
+}
+
+// AnimatedCounter component for scroll-triggered number animation
+function AnimatedCounter({ end, tag = "span", color = "#222" }: { end: number; tag?: keyof JSX.IntrinsicElements; color?: string }) {
+  const [count, setCount] = useState(0);
+  const ref = useRef<HTMLSpanElement | null>(null);
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !hasAnimated) {
+          setHasAnimated(true);
+        }
+      },
+      { threshold: 0.5 }
+    );
+    if (ref.current) observer.observe(ref.current);
+    return () => {
+      if (ref.current) observer.unobserve(ref.current);
+    };
+  }, [hasAnimated]);
+
+  useEffect(() => {
+    if (!hasAnimated) return;
+    let start = 0;
+    const duration = 900;
+    const step = Math.ceil(end / (duration / 16));
+    const animate = () => {
+      start += step;
+      if (start >= end) {
+        setCount(end);
+      } else {
+        setCount(start);
+        requestAnimationFrame(animate);
+      }
+    };
+    animate();
+  }, [hasAnimated, end]);
+
+  const Tag = tag as any;
+  return (
+    <Tag ref={ref} style={{ color, fontWeight: 700 }}>{count}</Tag>
   );
 }

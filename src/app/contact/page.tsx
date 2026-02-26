@@ -1,4 +1,3 @@
-
 export default function ContactPage() {
 	return (
 		<>
@@ -88,33 +87,19 @@ export default function ContactPage() {
   </section>
   {/* contact-section end */}
   {/* google-map-section */}
-  <section className="google-map-section">
-    <div className="map-inner">
-      <div className="google-map" id="contact-google-map" data-map-lat="40.712776" data-map-lng="-74.005974" data-map-title="Brooklyn, New York, United Kingdom" data-map-zoom={12} data-markers="{
-                  &quot;marker-1&quot;: [40.712776, -74.005974, &quot;<h4>Branch Office</h4><p>77/99 New York</p>&quot;]
-              }">
-      </div>
-    </div>
-    <div className="content-box">
-      <div className="inner-box">
-        <h3>Working Hour:</h3>
-        <div className="content-inner">
-          <ul className="schedule-list clearfix">
-            <li>Mon - Wed: <span>8:00AM - 7:00PM</span></li>
-            <li>Thu: <span>8:00AM - 7: 00PM</span></li>
-            <li>Fri: <span>8:00AM - 7:00PM</span></li>
-            <li>Sat - Sun: <span>8:00AM - 7:00PM</span></li>
-          </ul>
-          <h4>Contact Info:</h4>
-          <ul className="info-list clearfix">
-            <li><i className="icon-46" />Email: <a href="mailto:info@yourmail.com">info@yourmail.com</a></li>
-            <li><i className="icon-35" />Call :<a href="tel:123045615523">+1 (230)-456-155-23</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   {/* google-map-section */}
+
+  <div style={{ width: "100%", height: "400px", marginTop: "20px" }}>
+    <iframe
+      width="100%"
+      height="400"
+      frameBorder="0"
+      style={{ border: 0 }}
+      src="https://www.google.com/maps?q=London+Eye,+Riverside+Building,+County+Hall,+Westminster+Bridge+Rd,+London+SE1+7PB,+United+Kingdom&output=embed"
+      allowFullScreen
+    ></iframe>
+  </div>
 </div>
 
 

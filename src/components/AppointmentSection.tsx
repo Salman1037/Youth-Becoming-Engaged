@@ -36,7 +36,7 @@ const AppointmentSection: React.FC = () => {
 				<div className="left-column">
 					<div
 						className="bg-layer"
-						style={{ backgroundImage: "url(/assets/images/background/appointment-bg.jpg)" }}
+						style={{ backgroundImage: "url(/assets/images/background/appointment-bg.webp)" }}
 					></div>
 					<div className="content-box">
 						<div className="icon-box">

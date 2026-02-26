@@ -47,7 +47,7 @@
 "use client";
 import React from "react";
 
-const mainImgPath = "/assets/images/banner/engage_represent.webp";
+const mainImgPath = "/assets/images/banner/Parteship_bg.webp";
 
 const highlights = [
   { text: "Free transportation to programs" },

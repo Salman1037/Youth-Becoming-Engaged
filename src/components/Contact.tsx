@@ -17,7 +17,7 @@ const Contact: React.FC = () => (
         <div
           className="bg-layer"
           style={{
-            backgroundImage: "url(/assets/images/background/appointment-bg.jpeg)",
+            backgroundImage: "url(/assets/images/banner/engage_represent.webp)",
           }}
         ></div>
         <div className="content-box">

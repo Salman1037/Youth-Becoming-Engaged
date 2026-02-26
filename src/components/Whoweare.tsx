@@ -112,10 +112,10 @@ export default function Whoweare() {
     <h2 className="mb-4 text-center fw-bold">Our Impact</h2>
     <div className="row justify-content-center">
       <div className="col-md-3 col-sm-6 mb-4">
-        <CounterCard title="Youth Trained" end={1200} color="#0d6efd" />
+        <CounterCard title="Youth Trained" end={1200} color="#20476D" />
       </div>
       <div className="col-md-3 col-sm-6 mb-4">
-        <CounterCard title="Community Projects" end={35} color="#6610f2" />
+        <CounterCard title="Community Projects" end={35} color="#20476D" />
       </div>
       <div className="col-md-3 col-sm-6 mb-4">
         <CounterCard title="Mentors & Volunteers" end={80} color="#fd7e14" />
@@ -135,7 +135,7 @@ export default function Whoweare() {
 function CounterCard({
   title,
   end,
-  color = "#007bff",
+  color = "#20476D",
 }: {
   title: string;
   end: number;

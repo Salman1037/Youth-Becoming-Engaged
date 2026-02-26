@@ -104,7 +104,7 @@ const Focusarea: React.FC = () => (
                   e.currentTarget.style.boxShadow =
                     "0 12px 35px rgba(0,0,0,0.12)";
                   e.currentTarget.style.transform = "translateY(-8px)";
-                  e.currentTarget.style.borderColor = "#007bff";
+                  e.currentTarget.style.borderColor = "#20476D";
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.boxShadow =
@@ -131,10 +131,10 @@ const Focusarea: React.FC = () => (
                       width: 80,
                       height: 80,
                       borderRadius: "50%",
-                      border: "2px solid #007bff",
+                      border: "2px solid #20476D",
                       background: "#f8f9fa",
                       transition: "all 0.4s ease",
-                      color: "#007bff",
+                      color: "#20476D",
                     }}
                   >
                     {area.icon}

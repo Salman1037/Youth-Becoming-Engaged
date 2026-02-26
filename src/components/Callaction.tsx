@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const Callaction: React.FC = () => (
-  <section className="py-5 bg-primary text-center">
+  <section className="py-5  text-center" style={{ backgroundColor: "#20476D", color: "#fff" }}>
     <div className="container">
       <h2 className="mb-3 fw-bold text-white">Get Involved Call to Action</h2>
       <p className="mb-4 text-white">

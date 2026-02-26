@@ -41,7 +41,7 @@ const WhoWePartnerWith: React.FC = () => {
           transition: "opacity 0.7s cubic-bezier(.4,0,.2,1), transform 0.7s cubic-bezier(.4,0,.2,1)",
         }}
       >
-        <h2 style={{ textAlign: "center", fontSize: "2rem", fontWeight: 700, marginBottom: 36, color: "#294BCB" }}>Who We Partner With</h2>
+        <h2 style={{ textAlign: "center", fontSize: "2rem", fontWeight: 700, marginBottom: 36, color: "#20476D" }}>Who We Partner With</h2>
         <div
           style={{
             display: "grid",
@@ -77,7 +77,7 @@ const WhoWePartnerWith: React.FC = () => {
                   fontSize: "2.5rem",
                   marginBottom: 12,
                   display: "block",
-                  color: "#294BCB",
+                  color: "#20476D",
                   filter: "drop-shadow(0 2px 4px rgba(239,168,82,0.15))",
                 }}
                 aria-hidden="true"

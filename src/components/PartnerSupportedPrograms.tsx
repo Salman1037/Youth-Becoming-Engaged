@@ -66,7 +66,7 @@ const PartnerSupportedPrograms: React.FC = () => (
           >
             <i
               className={`fas ${prog.iconClass}`}
-              style={{ fontSize: "2.2rem", marginBottom: 18, display: "block", color: "#294BCB", transition: "color 0.2s" }}
+              style={{ fontSize: "2.2rem", marginBottom: 18, display: "block", color: "#20476D", transition: "color 0.2s" }}
               aria-hidden="true"
             ></i>
             <div style={{ fontSize: "1.18rem", fontWeight: 600, marginBottom: 10 }}>{prog.title}</div>

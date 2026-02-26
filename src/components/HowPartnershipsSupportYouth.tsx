@@ -43,7 +43,7 @@ const HowPartnershipsSupportYouth: React.FC = () => {
           transition: "opacity 0.7s cubic-bezier(.4,0,.2,1), transform 0.7s cubic-bezier(.4,0,.2,1)",
         }}
       >
-        <h2 style={{ textAlign: "center", fontSize: "2rem", fontWeight: 700, marginBottom: 32, color: "#294BCB" }}>How Our Partnerships Support Youth</h2>
+        <h2 style={{ textAlign: "center", fontSize: "2rem", fontWeight: 700, marginBottom: 32, color: "#20476D" }}>How Our Partnerships Support Youth</h2>
         <p style={{ fontSize: "1.1rem", lineHeight: 1.7, textAlign: "center", marginBottom: 36, color: "#222" }}>
           Our partnerships connect youth with caring adults and organizations, fostering supportive relationships and providing access to educational opportunities. Together, we help young people build confidence, develop skills, and achieve their goals in a safe and encouraging environment.
         </p>
@@ -97,7 +97,7 @@ const HowPartnershipsSupportYouth: React.FC = () => {
                     fontSize: "1.7rem",
                     marginRight: 18,
                     display: "inline-block",
-                    color: "#294BCB",
+                    color: "#20476D",
                     minWidth: 32,
                     textAlign: "center",
                     filter: "drop-shadow(0 2px 4px rgba(239,168,82,0.15))",

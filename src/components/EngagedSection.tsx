@@ -78,7 +78,7 @@ const EngagedSection = () => (
         <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 18 }}>
           {values.map((v, idx) => (
             <li key={idx} style={{ display: "flex", alignItems: "center", marginBottom: 12 }}>
-              <span style={{ fontSize: "1.4rem", marginRight: 12, color: "#294BCB" }}>{v.icon}</span>
+              <span style={{ fontSize: "1.4rem", marginRight: 12, color: "#20476D" }}>{v.icon}</span>
               <span style={{ fontSize: "1rem", fontFamily: "Montserrat, Arial, sans-serif", fontWeight: 600 }}>{v.label}</span>
             </li>
           ))}

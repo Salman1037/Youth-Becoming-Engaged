@@ -47,9 +47,9 @@ const AboutSection: React.FC = () => (
               Welcome to Youth Becoming Engaged
             </span>
 
-            <h1 className="banner-title fw-bold display-4 mt-2 mb-4">
-              Community, Programs, and Engagement
-            </h1>
+            <h5 className="banner-title fw-bold display-6 mt-2 mb-4">
+              Building Stronger Communities Through Youth Engagement
+            </h5>
 
           
             {/* Updated class to ensure pure black text */}

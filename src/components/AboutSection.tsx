@@ -75,9 +75,9 @@ const AboutSection: React.FC = () => (
               About Youth Becoming Engaged
             </span>
 
-            <h1 className="banner-title fw-bold display-4 mt-2 mb-4">
-              Empowering Youth, Strengthening 
-            </h1>
+            <h5 className="banner-title fw-bold display-6 mt-2 mb-4">
+            Empowering Youth, Strengthening Communities
+            </h5>
 
             <p className="banner-text text-bold mb-4 fs-5"style={{ color: '#000' }}>
               We partner with agencies, schools, and families to provide comprehensive case management and youth mentoring. Our focus is on health, learning, and community engagement to create lasting positive change. Explore our programs, connect with our team, and join us in empowering youth and transforming communities.

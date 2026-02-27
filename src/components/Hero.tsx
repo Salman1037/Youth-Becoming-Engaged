@@ -18,7 +18,7 @@ const AboutSection: React.FC = () => (
         height: "100%",
         zIndex: 0,
         background:
-          "url(/assets/images/background/main_bg1.webp) center/cover no-repeat",
+          "url(/assets/images/background/main_bg3.webp) center/cover no-repeat",
         opacity: 1,
       }}
     ></div>
@@ -31,9 +31,8 @@ const AboutSection: React.FC = () => (
         left: 0,
         width: "100%",
         height: "100%",
-        zIndex: 1,
-        backdropFilter: "blur(2px)",
-        WebkitBackdropFilter: "blur(2px)",
+      
+    
         background: "rgba(240,248,255,0.2)",
         pointerEvents: "none"
       }}
@@ -54,7 +53,7 @@ const AboutSection: React.FC = () => (
 
           
             {/* Updated class to ensure pure black text */}
-            <p className="banner-text text-black fw-bold mb-4 fs-5" style={{ color: '#000' }}>
+            <p className="banner-text text-black  mb-4 fs-5" style={{ color: '#000' }}>
               We partner with agencies, schools, and families to provide comprehensive case management and youth mentoring. Our focus is on health, learning, and community engagement to create lasting positive change. Explore our programs, connect with our team, and join us in empowering youth and transforming communities.
             </p>
               <div className="banner-buttons d-flex mb-4">

@@ -48,7 +48,7 @@ const AboutSection: React.FC = () => (
         height: "100%",
         zIndex: 0,
         background:
-          "url(/assets/images/background/about_bg.webp) center/cover no-repeat",
+          "url(/assets/images/background/about_bg.jpg) center/cover no-repeat",
         opacity: 1,
       }}
     ></div>
@@ -76,11 +76,11 @@ const AboutSection: React.FC = () => (
             </span>
 
             <h1 className="banner-title fw-bold display-4 mt-2 mb-4">
-              Empowering Youth, Strengthening Communities
+              Empowering Youth, Strengthening 
             </h1>
 
             <p className="banner-text text-bold mb-4 fs-5"style={{ color: '#000' }}>
-              Youth Becoming Engaged, Inc. is a dedicated case management and youth mentoring organization. Our mission is to support young people in achieving health, educational success, and meaningful community engagement. We collaborate with community agencies, schools, hospitals, law enforcement, social services, and families to empower youth, nurture positive relationships, and strengthen communities. Through personalized guidance and mentorship, we help youth overcome challenges, build confidence, and become active contributors to society.
+              We partner with agencies, schools, and families to provide comprehensive case management and youth mentoring. Our focus is on health, learning, and community engagement to create lasting positive change. Explore our programs, connect with our team, and join us in empowering youth and transforming communities.
             </p>
 
             <div className="banner-buttons d-flex">

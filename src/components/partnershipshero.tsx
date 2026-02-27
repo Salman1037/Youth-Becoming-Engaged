@@ -45,12 +45,11 @@ const PartnershipsHero: React.FC = () => (
             </span>
 
             <h1 className="banner-title fw-bold display-4 mt-2 mb-4">
-              Empowering Youth, <span className="text-primary">Transforming Communities</span>
+              Empowering Youth, <span className="text-primary">Transforming </span>
             </h1>
 
             <p className="banner-text text-bold mb-4 fs-5"style={{ color: '#000' }}>
-           Empowering the next generation through action and mentorship.
-We provide the safe spaces, leadership tools, and community connections young people need to thrive. From creative projects to professional guidance, we’re here to help youth build confidence, overcome challenges, and drive real change in their neighborhoods.
+              We partner with agencies, schools, and families to provide comprehensive case management and youth mentoring. Our focus is on health, learning, and community engagement to create lasting positive change. Explore our programs, connect with our team, and join us in empowering youth and transforming communities.
             </p>
 
             <div className="banner-buttons d-flex">

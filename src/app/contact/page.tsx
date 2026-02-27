@@ -20,7 +20,7 @@ export default function ContactPage() {
          height: "100%",
          zIndex: 0,
          background:
-           "url(/assets/images/background/about_bg.webp) center/cover no-repeat",
+           "url(/assets/images/background/contact_bg.jpg) center/cover no-repeat",
          opacity: 1,
        }}
      ></div>
@@ -52,7 +52,7 @@ export default function ContactPage() {
              </h1>
 
              <p className="banner-text text-bold mb-4 fs-5"style={{ color: '#000' }}>
-               Reach out for questions, support, or partnership opportunities. Our team is here to help and connect with you. Find our office location, email, and phone below, or send us a message using the contact form.
+              We partner with agencies, schools, and families to provide comprehensive case management and youth mentoring. Our focus is on health, learning, and community engagement to create lasting positive change. Explore our programs, connect with our team, and join us in empowering youth and transforming communities.
              </p>
 
              <div className="banner-buttons d-flex">

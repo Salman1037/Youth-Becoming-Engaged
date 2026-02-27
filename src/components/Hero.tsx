@@ -18,7 +18,7 @@ const AboutSection: React.FC = () => (
         height: "100%",
         zIndex: 0,
         background:
-          "url(/assets/images/background/main_bg3.webp) center/cover no-repeat",
+          "url(/assets/images/background/main_hero.webp) center/cover no-repeat",
         opacity: 1,
       }}
     ></div>

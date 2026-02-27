@@ -23,16 +23,19 @@ const AboutSection: React.FC = () => (
       }}
     ></div>
 
-    {/* Transparent Overlay */}
+    {/* Blurred Overlay Layer */}
     <div
       style={{
         position: "absolute",
         top: 0,
         left: 0,
-        width: "10420%",
+        width: "100%",
         height: "100%",
-        zInde2x: 1,
+        zIndex: 1,
+        backdropFilter: "blur(2px)",
+        WebkitBackdropFilter: "blur(2px)",
         background: "rgba(240,248,255,0.2)",
+        pointerEvents: "none"
       }}
     ></div>
 

@@ -79,7 +79,7 @@ const AboutSection: React.FC = () => (
               Empowering Youth, Strengthening Communities
             </h1>
 
-            <p className="banner-text text-bold mb-4 fs-5">
+            <p className="banner-text text-bold mb-4 fs-5"style={{ color: '#000' }}>
               Youth Becoming Engaged, Inc. is a dedicated case management and youth mentoring organization. Our mission is to support young people in achieving health, educational success, and meaningful community engagement. We collaborate with community agencies, schools, hospitals, law enforcement, social services, and families to empower youth, nurture positive relationships, and strengthen communities. Through personalized guidance and mentorship, we help youth overcome challenges, build confidence, and become active contributors to society.
             </p>
 

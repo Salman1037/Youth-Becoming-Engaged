@@ -1,18 +1,18 @@
 import React from "react";
-import { FaUserGraduate, FaHandshake, FaChartLine, FaBullhorn, FaCompass, FaComments, FaAward } from "react-icons/fa";
+import { FaChalkboardTeacher, FaComments, FaBullhorn, FaHeartbeat, FaUsers, FaLightbulb, FaMoneyBillWave, FaUserTie } from "react-icons/fa";
 
 const values = [
-  { icon: <FaUserGraduate />, label: "Empowerment" },
-  { icon: <FaHandshake />, label: "Networking" },
-  { icon: <FaChartLine />, label: "Growth" },
-  { icon: <FaBullhorn />, label: "Advocacy" },
-  { icon: <FaCompass />, label: "Guidance" },
-  { icon: <FaComments />, label: "Engagement" },
-  { icon: <FaAward />, label: "Dedication" }
+
+  { icon: <FaBullhorn />, label: "Self-advocacy" },
+  { icon: <FaHeartbeat />, label: "Mental health" },
+  { icon: <FaUsers />, label: "Interdependence" },
+  { icon: <FaLightbulb />, label: "Entrepreneurship" },
+  { icon: <FaMoneyBillWave />, label: "Financial literacy" },
+  { icon: <FaUserTie />, label: "Leadership" }
 ];
 
 const paragraph =
-  "The ENGAGED program stands for values that inspire youth to connect, grow, and make a positive impact in their communities. Each value is a pillar of our mission to support, educate, and empower young people.";
+  "Youth practical learning and open conversations about community.\nWe empower youth to grow, share, and lead together.";
 
 const imageUrl = "/assets/images/banner/engage_ represent.jpg";
 

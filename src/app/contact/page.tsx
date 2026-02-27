@@ -51,7 +51,7 @@ export default function ContactPage() {
                Get in Touch With Us
              </h1>
 
-             <p className="banner-text text-bold mb-4 fs-5">
+             <p className="banner-text text-bold mb-4 fs-5"style={{ color: '#000' }}>
                Reach out for questions, support, or partnership opportunities. Our team is here to help and connect with you. Find our office location, email, and phone below, or send us a message using the contact form.
              </p>
 

@@ -29,9 +29,9 @@ const AboutSection: React.FC = () => (
         position: "absolute",
         top: 0,
         left: 0,
-        width: "100%",
+        width: "10420%",
         height: "100%",
-        zIndex: 1,
+        zInde2x: 1,
         background: "rgba(240,248,255,0.2)",
       }}
     ></div>
@@ -49,7 +49,9 @@ const AboutSection: React.FC = () => (
               Community, Programs, and Engagement
             </h1>
 
-            <p className="banner-text text-bold mb-4 fs-5 " >
+          
+            {/* Updated class to ensure pure black text */}
+            <p className="banner-text text-black fw-bold mb-4 fs-5" style={{ color: '#000' }}>
               We partner with agencies, schools, and families to provide comprehensive case management and youth mentoring. Our focus is on health, learning, and community engagement to create lasting positive change. Explore our programs, connect with our team, and join us in empowering youth and transforming communities.
             </p>
               <div className="banner-buttons d-flex mb-4">

@@ -3,56 +3,159 @@ export default function ContactPage() {
 		<>
 			
       <div>
-  {/* page-title */}
-  <section className="page-title p_relative centred">
-    <div className="bg-layer" style={{backgroundImage: 'url(assets/images/background/page-title.jpg)'}} />
-    <figure className="image-layer"><img src="assets/images/resource/page-title-1.png" alt="" /></figure>
-    <div className="auto-container">
-      <div className="content-box">
-        <h1>Contact US</h1>
-        <ul className="bread-crumb clearfix">
-          <li><a href="index.html">Home</a></li>
-          <li>Contact US</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+
+ 
+
+   <section
+     className="banner-section pt-5 pb-5"
+     style={{ position: "relative", overflow: "hidden", background: "none" }}
+   >
+     {/* Background Image */}
+     <div
+       style={{
+         position: "absolute",
+         top: 0,
+         left: 0,
+         width: "100%",
+         height: "100%",
+         zIndex: 0,
+         background:
+           "url(/assets/images/background/about_bg.webp) center/cover no-repeat",
+         opacity: 1,
+       }}
+     ></div>
+ 
+     {/* Transparent Overlay */}
+     <div
+       style={{
+         position: "absolute",
+         top: 0,
+         left: 0,
+         width: "100%",
+         height: "100%",
+         zIndex: 1,
+         background: "rgba(240,248,255,0.2)",
+       }}
+     ></div>
+ 
+     <div className="container-fluid" style={{ position: "relative", zIndex: 2 }}>
+       <div className="row align-items-center">
+         {/* Left Column: Text */}
+         <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
+           <div className="banner-content ps-lg-5">
+             <span className="banner-subtitle text-primary fw-bold">
+               Contact Youth Becoming Engaged
+             </span>
+
+             <h1 className="banner-title fw-bold display-4 mt-2 mb-4">
+               Get in Touch With Us
+             </h1>
+
+             <p className="banner-text text-bold mb-4 fs-5">
+               Reach out for questions, support, or partnership opportunities. Our team is here to help and connect with you. Find our office location, email, and phone below, or send us a message using the contact form.
+             </p>
+
+             <div className="banner-buttons d-flex">
+               <a
+                 href="mailto:info@example.com"
+                 className="btn btn-primary btn-lg rounded-pill me-3 px-5"
+               >
+                 Email Us
+               </a>
+               <a
+                 href="tel:000111555999"
+                 className="btn btn-outline-primary btn-lg rounded-pill px-5"
+               >
+                 Call Us
+               </a>
+             </div>
+           </div>
+         </div>
+ 
+         {/* You can add an optional right-side image here if needed */}
+       </div>
+     </div>
+   </section>
+
+ 
+
   {/* page-title end */}
   {/* contact-info-two */}
-  <section className="contact-info-two centred">
-    <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-43.png)'}} />
-    <div className="auto-container">
-      <div className="row clearfix">
-        <div className="col-lg-4 col-md-6 col-sm-12 info-block">
-          <div className="info-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-            <div className="inner-box">
-              <div className="icon-box"><img src="assets/images/icons/icon-23.svg" alt="" /></div>
-              <h3>Office Location</h3>
-              <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+ <section className="contact-info-two centred">
+      <div
+        className="pattern-layer"
+        style={{ backgroundImage: 'url(assets/images/shape/shape-43.png)' }}
+      />
+      <div className="auto-container">
+        <div className="row clearfix" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'stretch' }}>
+
+          {/* Office Location */}
+          <div className="col-lg-4 col-md-6 col-sm-12 info-block" style={{ display: 'flex' }}>
+            <div
+              className="info-block-two wow fadeInUp animated"
+              data-wow-delay="00ms"
+              data-wow-duration="1500ms"
+              style={{ width: '100%' }}
+            >
+              <div className="inner-box" style={{ height: '100%' }}>
+                <div className="icon-box">
+                  <img src="assets/images/icons/icon-23.svg" alt="" />
+                </div>
+                <h3>Office Location</h3>
+                <p>
+                  356 Bloomfield Ave<br />
+                  Montclair, NJ 07042
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 info-block">
-          <div className="info-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-            <div className="inner-box">
-              <div className="icon-box"><img src="assets/images/icons/icon-24.svg" alt="" /></div>
-              <h3>Company Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a><br /><a href="mailto:contact@example.com">contact@example.com</a></p>
+
+          {/* Company Email */}
+          <div className="col-lg-4 col-md-6 col-sm-12 info-block" style={{ display: 'flex' }}>
+            <div
+              className="info-block-two wow fadeInUp animated"
+              data-wow-delay="300ms"
+              data-wow-duration="1500ms"
+              style={{ width: '100%' }}
+            >
+              <div className="inner-box" style={{ height: '100%' }}>
+                <div className="icon-box">
+                  <img src="assets/images/icons/icon-24.svg" alt="" />
+                </div>
+                <h3>Company Email</h3>
+                <p>
+                  <a href="mailto:sales@ybegrp.com">sales@ybegrp.com</a>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 info-block">
-          <div className="info-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-            <div className="inner-box">
-              <div className="icon-box"><img src="assets/images/icons/icon-25.svg" alt="" /></div>
-              <h3>Contact Us</h3>
-              <p><a href="tel:000111555999">+000 111555999</a><br /><a href="tel:000111555888">+000 111555888</a></p>
+
+          {/* Contact Us */}
+          <div className="col-lg-4 col-md-6 col-sm-12 info-block" style={{ display: 'flex' }}>
+            <div
+              className="info-block-two wow fadeInUp animated"
+              data-wow-delay="600ms"
+              data-wow-duration="1500ms"
+              style={{ width: '100%' }}
+            >
+              <div className="inner-box" style={{ height: '100%' }}>
+                <div className="icon-box">
+                  <img src="assets/images/icons/icon-25.svg" alt="" />
+                </div>
+                <h3>Contact Us</h3>
+                <p>
+                  <a href="tel:8622156627">862-215-6627</a><br />
+                  <strong>Business Hours:</strong><br />
+                  Mon–Thu: 9:00am – 5:30pm<br />
+                  Fri: 9:00am – 5:00pm
+                </p>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
-    </div>
-  </section>
+    </section>
   {/* contact-info-two end */}
   {/* contact-section */}
   <section className="contact-section sec-pad">

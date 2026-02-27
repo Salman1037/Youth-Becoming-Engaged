@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
 import {
   FaBullhorn,
@@ -13,34 +12,29 @@ import {
 
 const focusAreas = [
   {
-    title: "Community & Self-Advocacy",
-    desc: "Supporting youth to understand their rights, voice and role in their community.",
-    icon: <FaBullhorn size={40} />,
-  },
-  {
-    title: "Mental Health & Emotional Well-Being",
-    desc: "Promoting mental health awareness, emotional support and healthy coping skills.",
-    icon: <FaBrain size={40} />,
-  },
-  {
-    title: "Interdependence & Relationship Skills",
-    desc: "Helping young people build healthy relationships and collaborative skills.",
-    icon: <FaUsers size={40} />,
-  },
-  {
-    title: "Entrepreneurship & Financial Literacy",
-    desc: "Teaching financial responsibility, career readiness and entrepreneurial thinking.",
-    icon: <FaWallet size={40} />,
-  },
-  {
-    title: "Leadership Development",
-    desc: "Building confidence, communication and leadership abilities.",
+    title: "Mentoring",
+    desc: "Guidance and support for youth to achieve their goals.",
     icon: <FaUserTie size={40} />,
   },
   {
-    title: "Harm Reduction & Health Education",
-    desc: "Providing accurate, supportive and practical health and safety education.",
+    title: "Financial Literacy",
+    desc: "Teaching youth about money management and smart financial choices.",
+    icon: <FaWallet size={40} />,
+  },
+  {
+    title: "Physical Fitness & Wellness",
+    desc: "Encouraging healthy lifestyles through fitness and wellness activities.",
     icon: <FaHeartbeat size={40} />,
+  },
+  {
+    title: "Culinary Education",
+    desc: "Hands-on learning in cooking, nutrition, and healthy eating.",
+    icon: <FaBrain size={40} />,
+  },
+  {
+    title: "Anti Bullying Initiative",
+    desc: "Promoting respect, safety, and positive relationships among youth.",
+    icon: <FaBullhorn size={40} />,
   },
 ];
 
@@ -54,14 +48,12 @@ const Focusarea: React.FC = () => (
     ></div>
 
     <div className="auto-container">
-      <div className="sec-title mb_60">
-        <span className="sub-title mb_5">
-          Our Focus Areas (The “E” in ENGAGED)
-        </span>
+      <div className=" mb_60 ">
+        <h1 className=" mb_5 ">
+        <b>  Our Services</b>
+        </h1>
         <h2>
-          Through our partnerships, we provide practical learning and open
-          conversations that help young people remain engaged in their
-          communities.
+          We offer Mentoring, Financial Literacy, Physical Fitness & Wellness, Culinary Education, and an Anti Bullying Initiative to empower youth and support their growth.
         </h2>
       </div>
 

@@ -10,7 +10,7 @@ const Header = () => (
           <ul className="info-list clearfix">
             <li>
               <i className="icon-46"></i>
-              <a href="mailto:example@info.com">example@info.com</a>
+              <a href="mailto:sales@ybegrp.com">sales@ybegrp.com</a>
             </li>
             {/* <li>
               <i className="icon-2"></i>
@@ -72,6 +72,9 @@ const Header = () => (
                   </li>
                   <li>
                     <Link href="/partnerships">Partnerships</Link>
+                  </li>
+                   <li>
+                    <Link href="/blog">Blog</Link>
                   </li>
                   <li>
                     <Link href="/contact">Contact & Get Involved</Link>

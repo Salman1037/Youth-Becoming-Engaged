@@ -13,10 +13,12 @@ export default function HomePage() {
       <Hero />
       <Whoweare />
       <Ourprogram />
-      <Contact />
-      <WorkingWithCommunity />
-      <CommunityPartnerships />
       <Focusarea />
+      <Contact />
+      <CommunityPartnerships />
+      <WorkingWithCommunity />
+      
+    
       <Callaction />
       
       {/* Add other home page sections/components here */}

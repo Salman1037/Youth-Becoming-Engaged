@@ -5,12 +5,14 @@ import HowPartnershipsSupportYouth from "@/components/HowPartnershipsSupportYout
 import PartnerSupportedPrograms from "@/components/PartnerSupportedPrograms";
 import ImprovingAccessThroughPartnerships from "@/components/ImprovingAccessThroughPartnerships";
 import Callaction from "@/components/Callaction";
+import Focusarea from "@/components/Focusarea";
 
 export default function Page() {
   return (
     <>
       <PartnershipsHero />
       <CommunityPartnershipsIntro />
+      <Focusarea />
       <WhoWePartnerWith />
       <HowPartnershipsSupportYouth />
       <PartnerSupportedPrograms />

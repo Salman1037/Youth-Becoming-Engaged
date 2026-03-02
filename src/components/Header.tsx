@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { FaInstagram, FaTwitter, FaDribbble } from "react-icons/fa";
 
 const Header = () => (
   <header className="main-header">
@@ -8,6 +9,10 @@ const Header = () => (
       <div className="outer-container">
         <div className="top-inner">
           <ul className="info-list clearfix">
+            <li>
+              <i className="icon-2"></i>
+              <a href="tel:9736718122">973-671-8122</a>
+            </li>
             <li>
               <i className="icon-46"></i>
               <a href="mailto:sales@ybegrp.com">sales@ybegrp.com</a>
@@ -22,22 +27,20 @@ const Header = () => (
             </li> */}
           </ul>
           <ul className="social-links clearfix">
+         
             <li>
-              <h6>Follow Us</h6>
-            </li>
-            <li>
-              <a href="/index">
-                <i className="icon-4"></i>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <FaInstagram />
               </a>
             </li>
             <li>
-              <a href="/index">
-                <i className="icon-5"></i>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <FaTwitter />
               </a>
             </li>
             <li>
-              <a href="/index">
-                <i className="icon-6"></i>
+              <a href="https://www.dribbble.com" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
+                <FaDribbble />
               </a>
             </li>
           </ul>
@@ -84,7 +87,7 @@ const Header = () => (
             </nav>
           </div>
           <div className="menu-right-content">
-          
+            
             <div className="btn-box">
               <a href="/contact" className="theme-btn btn-one">
                 <span>Appointment</span>
@@ -113,11 +116,11 @@ const Header = () => (
           <div className="menu-right-content">
             <div className="support-box">
               <div className="icon-box">
-                <img src="/assets/images/icons/icon-1.svg" alt="Emergency Icon" />
+                <img src="/assets/images/icons/icon-1.svg" alt="Call Icon" />
               </div>
-              <span>Emergency Call</span>
+              <span>Call Us</span>
               <h6>
-                <a href="tel:12463330088">+ 1 (246) 333-0088</a>
+                <a href="tel:9736718122">973-671-8122</a>
               </h6>
             </div>
             <div className="btn-box">

@@ -81,7 +81,7 @@ export default function Whoweare() {
             <div className="col-lg-6 col-md-12 col-sm-12 image-column">
               <div className="image-block-one">
                 <div className="image-box">
-                  <div className="shape">
+                  <div >
                     <div
                       className="shape-1"
                       style={{ backgroundImage: "url(/assets/images/shape/shape-9.png)" }}

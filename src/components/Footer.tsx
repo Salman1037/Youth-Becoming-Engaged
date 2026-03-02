@@ -1,5 +1,6 @@
 
 import React from "react";
+import { FaInstagram, FaTwitter, FaDribbble } from "react-icons/fa";
 
 const Footer = () => (
   <footer className="main-footer">
@@ -25,9 +26,21 @@ const Footer = () => (
                   Empowering youth through mentoring, wellness, and community engagement.
                 </p>
                 <ul className="social-links clearfix">
-                  <li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
-                  <li><a href="/"><i className="fab fa-dribbble"></i></a></li>
-                  <li><a href="/"><i className="fab fa-twitter"></i></a></li>
+                  <li>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                      <FaInstagram />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.dribbble.com" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
+                      <FaDribbble />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                      <FaTwitter />
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -58,10 +71,11 @@ const Footer = () => (
               </div>
               <div className="widget-content">
                 <ul className="links-list clearfix">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/about">About</a></li>
-                  <li><a href="/partnerships">Partnerships</a></li>
-                  <li><a href="/contact">Contact</a></li>
+                  <li>Partnership</li>
+                  <li>Law Enforcement</li>
+                  <li>Schools</li>
+                  <li>Hospitals</li>
+                  <li>Social Services</li>
                 </ul>
               </div>
             </div>
@@ -81,7 +95,7 @@ const Footer = () => (
                   </li>
                   <li>
                     <img src="/assets/images/icons/icon-6.svg" alt="" />
-                    Contact: <a href="tel:8622156627">862-215-6627</a>
+                    Contact: <a href="tel:9736718122">973-671-8122</a>
                   </li>
                   <li>
                     <img src="/assets/images/icons/icon-7.svg" alt="" />

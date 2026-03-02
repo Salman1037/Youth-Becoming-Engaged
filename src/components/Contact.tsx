@@ -10,7 +10,7 @@ const Contact: React.FC = () => (
       }}
     ></div>
     <figure className="image-layer">
-      <img src="/assets/images/resource/women-1.png" alt="" />
+      {/* <img src="/assets/images/resource/women-1.png" alt="" /> */}
     </figure>
     <div className="outer-container clearfix">
       <div className="left-column">
@@ -24,9 +24,9 @@ const Contact: React.FC = () => (
           <div className="icon-box">
             <img src="/assets/images/icons/icon-4.svg" alt="" />
           </div>
-          <h3>Need a Doctor for Check-up? Call for an Emergency Service!</h3>
+          
           <span>
-            <a href="tel:112345615523">Call: +1 (123)-456-155-23</a>
+            <a href="tel:9736718122">Call: 973-671-8122</a>
           </span>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Contact: React.FC = () => (
               backgroundImage: "url(/assets/images/shape/shape-16.png)",
             }}
           ></div>
-          <h3>Make an Appointment </h3>
+          <h3>Contact Us</h3>
           {/* Use a no-op action to avoid SSR/CSR mismatch and let JS handle submission */}
           <form action="#" method="post" autoComplete="off">
             <div className="form-group">

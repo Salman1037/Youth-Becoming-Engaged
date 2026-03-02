@@ -59,13 +59,13 @@ export default function ContactPage() {
 
              <div className="banner-buttons d-flex">
                <a
-                 href="mailto:info@example.com"
+                 href="mailto:sales@ybegrp.com"
                  className="btn btn-primary btn-lg rounded-pill me-3 px-5"
                >
                  Email Us
                </a>
                <a
-                 href="tel:000111555999"
+                 href="tel:9736718122"
                  className="btn btn-outline-primary btn-lg rounded-pill px-5"
                >
                  Call Us
@@ -146,7 +146,7 @@ export default function ContactPage() {
                 </div>
                 <h3>Contact Us</h3>
                 <p>
-                  <a href="tel:8622156627">862-215-6627</a><br />
+                  <a href="tel:9736718122">973-671-8122</a><br />
                   <strong>Business Hours:</strong><br />
                   Mon–Thu: 9:00am – 5:30pm<br />
                   Fri: 9:00am – 5:00pm
